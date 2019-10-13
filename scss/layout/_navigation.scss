@@ -1,6 +1,7 @@
 .first-nav {
-    grid-column: 7 / 10;
+    grid-column: 6 / 10;
     grid-row: 1 / 2;
+    justify-content: space-around;
     @include navigation;
     
 }
@@ -9,5 +10,7 @@
     grid-column: 3 / 8;
     grid-row: 3 / 4;
     @include navigation;
+    
+    
 }
 
